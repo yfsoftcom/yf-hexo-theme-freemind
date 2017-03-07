@@ -1,0 +1,68 @@
+slogan: "keep going with us."
+
+menu:
+#  - title: 分类
+#    url: categories
+#    intro: "All the categories."
+    # icon: "fa fa-folder"
+  - title: Home
+    url: .
+    intro: "blog.yunplus.io"
+  - title: Source
+    url: source/index.html
+    intro: "Source ."
+  - title: About
+    url: about/index.html
+    intro: "About us."
+    # icon: "fa fa-user"
+  
+    # icon: "fa fa-user"
+
+links:
+  - title: FPM
+    url: https://github.com/team4yf
+    intro: "FPM Team."
+    icon: "fa fa-github"
+  - title: "www.yunplus.io"
+    url: http://www.yunplus.io
+    intro: "apps"
+    icon: "fa fa-github"
+  # - title: "My LinkedIn"
+  #   url: http://www.linkedin.com/in/xxx
+  #   intro: "My Linkin account."
+  #   icon: "fa fa-linkedin"
+
+widgets:
+- search
+- category
+- tagcloud
+- recent_posts
+- links
+
+rss:
+fancybox: true
+favicon: favicon.png
+duoshuo_shortname: blogyunplusio
+
+
+# Analytics (change to yours)
+google_analytics:
+  enable: false
+  siteid:
+baidu_tongji:
+  enable: false
+  siteid:
+growingio:
+  enable: true
+  siteid: 9e62c28cbe53ac71
+
+baidu_verification:
+  enable: true
+  code: McmMBFwdO0
+
+google_verification:
+  enable: true
+  code: TMkOXJMi2Hzjnf06eD_85orpkvedPBEb8iz3QoRAVWw
+
+# search
+#swiftype_key: ZP2ZSuHgipSZfRyU8uTR

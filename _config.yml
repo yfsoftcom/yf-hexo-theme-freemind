@@ -42,7 +42,7 @@ widgets:
 rss:
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname: blogyunplusio
+disqus_shortname: blog-yunplus-io
 
 
 # Analytics (change to yours)

@@ -2,12 +2,12 @@
 <section id="comment">
     <h2 class="title"><%= __('comment') %></h2>
 
-    <% if (theme.changyan || config.changyan) { %>
+    <% if (theme.changyan) { %>
         <div id="SOHUCS" sid="<%- page.id %>" ></div>
         <script type="text/javascript">
         (function(){
-        var appid = '<%- config.changyan.appid %>';
-        var conf = '<%- config.changyan.conf %>';
+        var appid = '<%- theme.changyan.appid %>';
+        var conf = '<%- theme.changyan.conf %>';
         var width = window.innerWidth || document.documentElement.clientWidth;
         if (width < 960) {
           window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); 

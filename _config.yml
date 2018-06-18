@@ -64,5 +64,11 @@ google_verification:
   enable: true
   code: TMkOXJMi2Hzjnf06eD_85orpkvedPBEb8iz3QoRAVWw
 
+changyan:
+  enable: true
+  appid: cytFHbB1V
+  conf: prod_d1603fab79ea0a074dce6618ec02e44e
+  
+
 # search
 #swiftype_key: ZP2ZSuHgipSZfRyU8uTR
